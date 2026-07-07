@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    color: white;
+
+     background: linear-gradient(
+        135deg,
+        #833ab4,
+        #fd1d1d,
+        #fcb045)
+}
+
+.container{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    min-height: 350px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-align: center;
+    background-color:darkgray;
+    border: none;
+}
+
+h2{
+    color: black;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dashboard{
+    border-radius: 15px;
+    width: 400px;
+    padding: 30px;
+    background-color:darkgray;
+    text-align: center;
+}
+
+.dashboard button{
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.error{
+    color: red;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dashboard{
+    text-align: center;
+}
+
+.username{
+    font-size: 32px;
+    color: #262626;
+    margin-bottom: 25px;
+}
+
+.profile-card{
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.profiledetails{
+    font-size: 18px;
+    color: #444;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.profiledetails strong{
+    color: #000;
+}

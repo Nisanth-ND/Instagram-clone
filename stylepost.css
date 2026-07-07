@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(
+        135deg,
+        #833ab4,
+        #fd1d1d,
+        #fcb045);
+        background-attachment: fixed;
+        height: 100vh;
+        width: 390vh;
+        overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    border:1px solid black;
+    padding:15px;
+    width:500px;
+    margin-bottom:20px;
+    background-color: darkgray;
+    border: none;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    background-color: green ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.dash-btn {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.btn-top {
+    display: flex;
+    justify-content: space-between;
+}
